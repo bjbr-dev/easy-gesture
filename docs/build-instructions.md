@@ -6,13 +6,15 @@ The service runs in the background, watching for gestures and running commands. 
 The GUI provides an easy way to change config.toml or gestures.yaml (but it's not necessary to use the GUI).
 
 # Debian/Ubuntu
-	
-	sudo apt-get install g++ libboost-serialization-dev libgtkmm-3.0-dev libxtst-dev libdbus-glib-1-dev intltool xserver-xorg-dev
+
+ ```bash
+   sudo apt-get install g++ libboost-serialization-dev libgtkmm-3.0-dev libxtst-dev libdbus-glib-1-dev intltool xserver-xorg-dev
    sudo apt-get install -y python3-venv python3-wheel python3-dev
    sudo apt-get install -y libgirepository1.0-dev build-essential
    sudo apt-get install -y libbz2-dev libreadline-dev libssl-dev zlib1g-dev libsqlite3-dev wget
    sudo apt-get install -y  curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libcairo2-dev
    pip3 install pycairo PyGObject
+```
 
 # Releases
 
